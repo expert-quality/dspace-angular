@@ -526,11 +526,19 @@
 
   "auth.messages.expired": "Your session has expired. Please log in again.",
 
+  "auth.messages.token-refresh-failed": "Refreshing your session token failed. Please log in again.",
+
 
 
   "bitstream.download.page": "Now downloading {{bitstream}}..." ,
 
 
+
+  "bitstream.edit.authorizations.link": "Edit bitstream's Policies",
+
+  "bitstream.edit.authorizations.title": "Edit bitstream's Policies",
+
+  "bitstream.edit.return": "Back",
 
   "bitstream.edit.bitstream": "Bitstream: ",
 
@@ -1629,7 +1637,11 @@
 
 
 
-  "item.edit.move.cancel": "Cancel",
+  "item.edit.move.cancel": "Back",
+
+  "item.edit.move.save-button": "Save",
+
+  "item.edit.move.discard-button": "Discard",
 
   "item.edit.move.description": "Select the collection you wish to move this item to. To narrow down the list of displayed collections, you can enter a search query in the box.",
 
@@ -1823,8 +1835,6 @@
 
   "item.page.description": "Description",
 
-  "item.page.edit": "Edit this item",
-
   "item.page.journal-issn": "Journal ISSN",
 
   "item.page.journal-title": "Journal Title",
@@ -1896,6 +1906,8 @@
   "item.page.filesection.original.bundle" : "Original bundle",
 
   "item.page.filesection.license.bundle" : "License bundle",
+
+  "item.page.return": "Back",
 
   "item.preview.dc.identifier.uri": "Identifier:",
 
@@ -3160,6 +3172,10 @@
 
   "submission.general.discard.submit": "Discard",
 
+  "submission.general.info.saved": "Saved",
+
+  "submission.general.info.pending-changes": "Unsaved changes",
+
   "submission.general.save": "Save",
 
   "submission.general.save-later": "Save for later",
@@ -3186,7 +3202,7 @@
   "submission.import-external.source.loading": "Loading ...",
 
   "submission.import-external.source.sherpaJournal": "SHERPA Journals",
-  
+
   "submission.import-external.source.sherpaJournalIssn": "SHERPA Journals by ISSN",
 
   "submission.import-external.source.sherpaPublisher": "SHERPA Publishers",
@@ -3658,6 +3674,8 @@
 
   "workflow-item.edit.title": "Edit workflowitem",
 
+  "workflow-item.edit.title": "View workflowitem",
+
   "workflow-item.delete.notification.success.title": "Deleted",
 
   "workflow-item.delete.notification.success.content": "This workflow item was successfully deleted",
@@ -3689,5 +3707,16 @@
 
   "workflow-item.send-back.button.cancel": "Cancel",
 
-  "workflow-item.send-back.button.confirm": "Send back"
+  "workflow-item.send-back.button.confirm": "Send back",
+
+  "workflow-item.view.breadcrumbs": "Workflow View",
+
+
+  "idle-modal.header": "Session will expire soon",
+
+  "idle-modal.info": "For security reasons, user sessions expire after {{ timeToExpire }} minutes of inactivity. Your session will expire soon. Would you like to extend it or log out?",
+
+  "idle-modal.log-out": "Log out",
+
+  "idle-modal.extend-session": "Extend session"
 }
